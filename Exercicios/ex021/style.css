@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body{
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: rgb(85, 85, 85);
+}
+
+#principal{
+    width: 550px;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.445);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+header > h1{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.39);
+    width: 900px;
+    margin-left: 1em;
+    background-color: rgb(206, 206, 206);
+}
+
+nav > p > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+nav > p > a:hover{
+    text-decoration: underline;
+    color: rgb(23, 80, 235);
+}
+
+#artigo2{
+    background-color: rgb(190, 190, 190);
+}
+
+#principal > #artigo2 > aside{
+    background-color: rgb(135, 204, 204);
+    position: relative;
+    left: 34.3em;
+    width: 15em;
+    height: 10em;
+}
+
+footer{
+    background-color: black;
+    color:rgb(255, 255, 255) ;
+    text-align: center;
+}
+
+div#bola{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 100px;
+}
