@@ -1,6 +1,80 @@
 @charset "UTF-8";
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
 
 body, html{
     background-color: antiquewhite;
+}
+
+header {
+    background-color:rgb(216, 209, 180)
+}
+
+header > h1 {
+    padding: 10px;
+    text-align:center;
+}
+
+#burguer {
+    background-color: rgb(85, 84, 78);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer; /* para virar a maozinha quado passar em cima do hamburguer */
+}
+
+menu{
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none; /* tirar as bolinhas antes da palavra da lista */
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none; /* Tirar o Underline do menu */
+    background-color: rgb(180, 176, 157);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid rgb(161, 159, 147);
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(161, 159, 147);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1.5em
+}
+
+article > h2 {
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-indent: 20px /* Da um espaçamento em cada paragrafo */
 }
